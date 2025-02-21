@@ -51,7 +51,7 @@ export default function AddTaskPage() {
     if (!file) return;
 
     // Verificar tipo de archivo permitido
-    const allowedTypes = ["image/jpeg", "image/png", "image/gif"];
+    const allowedTypes = ["image/jpg","image/jpeg", "image/png", "image/gif"];
     if (!allowedTypes.includes(file.type)) {
       toast.error("Solo se aceptan archivos JPEG, PNG o GIF");
       return;
