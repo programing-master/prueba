@@ -9,6 +9,12 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+  {
+  "resolutions": {
+    "**/react-image-picker": {
+      "react": "^18.0.0"
+    }
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.48.1",
     "fs-extra": "^11.3.0",
